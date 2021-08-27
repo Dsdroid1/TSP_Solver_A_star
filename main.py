@@ -269,13 +269,15 @@ def A_star_solver(graph, source):
             # print(tsp_path)
             for step in reversed(tsp_path):
                 print(step, end=" ")
+            print(f'Path cost found:{goal_state.get_action_cost()}')
         else:
             print('No solution')
     else:
         print('No solution')
     
 if __name__ == '__main__':
-    graph = read_input('graph.txt')
+    # graph = read_input('graph.txt')
+    graph = read_input('test2.txt')
     nodes  = [n for n in graph.keys()]
     # print(nodes)
     # retval = MST(graph,nodes)
