@@ -75,7 +75,7 @@ def MST(graph, allowed_node_list):
     return final_heuristic
 
 def heuristic_function(graph, remaining_nodes, current_node, source):
-    # The heuristic value is MST + path cost to closest node visited till now + path cost of closest unvisited node from source
+    # The heuristic value is MST + path cost to closest node unvisited till now + path cost of closest unvisited node from source
     nodes = [key for key in graph.keys()]
     mst_cost = MST(graph,remaining_nodes)
     if mst_cost is not False:
