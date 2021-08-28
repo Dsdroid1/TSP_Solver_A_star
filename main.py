@@ -1,5 +1,4 @@
 import heapq
-import numpy
 
 # Function to read the graph as an input file
 def read_input(filename):
