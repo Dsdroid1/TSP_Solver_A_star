@@ -85,6 +85,7 @@ def MST(graph, allowed_node_list):
     return final_heuristic
 
 def MST_with_heaps(graph, allowed_node_list):
+    # O(Nlog(N)) using heap for prim's mst
     nodes = graph.keys()
     visited = set()
     allowed = set(allowed_node_list)
