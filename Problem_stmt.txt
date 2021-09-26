@@ -7,3 +7,6 @@ Required:
 * Data structure and representation of nodes for the fringe list
 * Admissible heuristic calculator, i.e. MST of the 'augmented graph' by Prim's/Kruskal's
 * Way to trace the solution
+
+OPTIMS POSSIBLE: 
+Use Visited info as a hash table
