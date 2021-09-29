@@ -11,8 +11,8 @@ The program will then ask for the input filename, which contains the graph infor
 
 ### Input file format
 
-The first line will contain the number of nodes in the graph. The subsequent lines contain the edge information in the following format:
-`i j cost` or `i,j,cost` where `i` and `j` are the nodes for the corresponding edge
+The first line will contain the number of nodes in the graph. The subsequent lines contain the edge information in the following format: <br/>
+`i j cost` or `i,j,cost` where `i` and `j` are the nodes for the corresponding edge. <br/>
 To use the comma separated format, input file should have an extension of `csv`.[See sample input files]
 
 ### Heuristic Used
